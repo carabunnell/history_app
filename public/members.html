@@ -30,9 +30,38 @@
       <div class="col-md-6 col-md-offset-3">
         <h2>Welcome <span class="member-name"></span></h2>
         <p>Here is where you create your settings!</p>
+        <form action="submit" method="get">
+           <label>
+             <input id="indeterminate-checkbox" type="checkbox" />
+             <span>History</span><br>
+           </label>
+            <label>
+              <input id="indeterminate-checkbox" type="checkbox" />
+              <span>Arts</span><br>
+            </label>
+             <label>
+               <input id="indeterminate-checkbox" type="checkbox" />
+               <span>Music</span><br>
+             </label>
+              <label>
+                <input id="indeterminate-checkbox" type="checkbox" />
+                <span>Food</span><br>
+              </label>
+               <label>
+                 <input id="indeterminate-checkbox" type="checkbox" />
+                 <span>Sports</span><br>
+               </label>
+          Other Interests: <input type="search" name="other" placeholder="Search"><br>
+          <button type="submit">Explore!</button>
+          <!-- Dcoumentation from Materializecss.com on using the above checkboxes: 
+          Use checkboxes when looking for yes or no answers. The for attribute is necessary to bind 
+          our custom checkbox with the input. Add the input's id as the value of the for attribute 
+          of the label.
+          -->
+        </form>
       </div>
-
-      <a href="/content">View your app!</a>
+    </div>
+  </div>
     </div>
   </div>
 
