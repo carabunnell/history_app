@@ -2,3 +2,33 @@ form.signup,
 form.login {
   margin-top: 50px;
 }
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+  
+  .nav-wrapper {
+    background: #3A1C71;
+    background: -webkit-linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);
+    background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);
+  }
+
+  footer {
+    background: #3A1C71;
+    background: -webkit-linear-gradient(to right, #3A1C71, #D76D77, #FFAF7B);
+    background: linear-gradient(to right, #3A1C71, #D76D77, #FFAF7B);
+    height: 50px;
+    width: 100%;
+    bottom: 0;
+    padding-top: 15px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    clear: both;
+  }
