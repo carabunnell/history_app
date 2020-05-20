@@ -2,33 +2,70 @@
 <html lang="en">
 
 <head>
-  <title>Passport Authentication</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/lumen/bootstrap.min.css">
+  <title>Billboh App Content</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" type="text/css" href="/public/stylesheets/style.css">
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <link href="stylesheets/style.css" rel="stylesheet">
 </head>
 
 <body>
-  <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="/logout">
-        Logout
-      </a>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo center">BillBoh</a>
+      <ul class="left hide-on-med-and-down">
+        <li><a href="../members">Home</a></li>
+        <li><a href="../content.html">Contents</a></li>
+        <li class="active"><a href="/logout">Logout</a></li>
+      </ul>
+        </a>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-md-offset-3">
         <h2>Welcome <span class="member-name"></span></h2>
         <p>Here is where you create your settings!</p>
+        <form action="submit" method="get">
+           <label>
+             <input id="indeterminate-checkbox" type="checkbox" />
+             <span>History</span><br>
+           </label>
+            <label>
+              <input id="indeterminate-checkbox" type="checkbox" />
+              <span>Arts</span><br>
+            </label>
+             <label>
+               <input id="indeterminate-checkbox" type="checkbox" />
+               <span>Music</span><br>
+             </label>
+              <label>
+                <input id="indeterminate-checkbox" type="checkbox" />
+                <span>Food</span><br>
+              </label>
+               <label>
+                 <input id="indeterminate-checkbox" type="checkbox" />
+                 <span>Sports</span><br>
+               </label>
+          Other Interests: <input type="search" name="other" placeholder="Search"><br>
+          <button type="submit">Explore!</button>
+          <!-- Dcoumentation from Materializecss.com on using the above checkboxes: 
+          Use checkboxes when looking for yes or no answers. The for attribute is necessary to bind 
+          our custom checkbox with the input. Add the input's id as the value of the for attribute 
+          of the label.
+          -->
+        </form>
       </div>
-
-      <a href="/content">View your app!</a>
     </div>
   </div>
+    </div>
+  </div>
+
+  <footer id="footer">© 2020 BillBoh</footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript" src="js/members.js"></script>
