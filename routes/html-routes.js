@@ -29,5 +29,8 @@ module.exports = function(app) {
   });
 
   // app.get("/content")
+  app.get("/content", function(req, res) {
+    res.sendFile(path.join(__dirname, "../public/content.html"));
+  });
 
 };
