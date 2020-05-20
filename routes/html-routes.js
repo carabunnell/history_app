@@ -29,7 +29,7 @@ module.exports = function(app) {
   });
 
   // app.get("/content")
-  app.get("/content", isAuthenticated, function (req, res) {
+  app.get("/content", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/content.html"));
   });
 
