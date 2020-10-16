@@ -28,7 +28,7 @@ ____________________
 
 ## Team Members and Roles
 * Art - Geolocation API code
-* Cara - Front end, styling, design
+* Cara - Front end, 'facts' API and scraper code
 * Greg - CSS, Historical API Code
 * Jaycee - Login and news API Code
 
