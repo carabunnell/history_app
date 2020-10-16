@@ -13,6 +13,7 @@ _______________________________
 #### Facts Page:
 _________________
 ![Factspage](public/images/facts.jpg "Facts Page")
+____________________
 
 ## Technology Used
 * MongoDB
