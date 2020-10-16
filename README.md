@@ -9,7 +9,7 @@ We rely on our mobile phones more and more for just about everything. When trave
 #### Welcome Page:
 ____________________________________________________
 ![Welcomepage](public/images/welcome.jpg "Home Page")
-
+_______________________________
 #### Facts Page:
 _________________
 ![Factspage](public/images/facts.jpg "Facts Page")
