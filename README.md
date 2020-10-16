@@ -6,10 +6,12 @@ We rely on our mobile phones more and more for just about everything. When trave
 
 ## App Preview
 
-Welcome Page:
+#### Welcome Page:
+____________________________________________________
 ![Welcomepage](public/images/welcome.jpg "Home Page")
 
-Facts Page:
+#### Facts Page:
+_________________
 ![Factspage](public/images/facts.jpg "Facts Page")
 
 ## Technology Used
